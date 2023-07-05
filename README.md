@@ -2,7 +2,7 @@
 
 ![App Screenshot](public/readmeimg.png)
 
-#### Access here (still updating) -> [Anime-Nexus](https://matheusleite01.github.io/Weather-app-React/)
+#### Access here (still updating) -> [Anime-Nexus](https://anime-nexus-three.vercel.app)
 <br>
 
 # Overview
