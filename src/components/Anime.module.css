@@ -1,0 +1,138 @@
+.animeBg {
+  padding: 40px 75px;
+  margin: 40px 65px;
+  background: var(--second--color);
+  border-radius: 10px;
+}
+
+.anime {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 60px;
+}
+
+.anime img {
+  width: 280px;
+}
+
+.animeInfo {
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.animeInfo p {
+  max-width: 600px;
+  font-family: var(--font-lato);
+  font-size: var(--size--16);
+  line-height: 25px;
+}
+
+.animeTitle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.animeTitle h1 {
+  font-family: var(--font-varela);
+  font-size: var(--size--40);
+}
+
+.animeTitle span {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: var(--font-lato);
+  font-size: var(--size--16);
+}
+
+.animeTitle span::before {
+  content: "";
+  width: 1px;
+  height: 30px;
+  background: var(--white);
+}
+
+.animeListBg {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.animesSelect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.animesSelect h1 {
+  font-family: var(--font-varela);
+  font-size: 1.875rem;
+  text-transform: uppercase;
+}
+
+.animesSelect select {
+  font-family: var(--font-varela);
+  font-size: var(--size--20);
+  color: var(--white);
+  background: var(--first--color);
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  outline: none;
+}
+
+.animeList {
+  width: 280px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.animeList:hover {
+  background: var(--third--color);
+  border-radius: 10px;
+}
+.animeList h2 {
+  font-family: var(--font-varela);
+  font-size: 1.5625rem;
+  color: var(--white);
+}
+
+.animeList p {
+  font-family: var(--font-lato);
+  font-size: var(--size--16);
+  color: var(--white);
+}
+
+.animeListStatus span {
+  font-family: var(--font-lato);
+  font-size: var(--size--16);
+  margin-right: 10px;
+  color: var(--white);
+}
+
+.animeListStatus span:first-child {
+  padding-right: 10px;
+  border-right: 1px solid var(--white);
+}
+
+@media screen and (max-width: 1200px) {
+  .animeBg {
+    padding: 40px 30px;
+    margin: 40px 20px;
+  }
+}
